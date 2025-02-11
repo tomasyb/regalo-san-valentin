@@ -8,6 +8,18 @@ body {
     background: linear-gradient(to right, #ff6f91, #ff9472);
 }
 
+.heart {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    animation: fadeIn 2s;
+    clip-path: path('M50 15 A 35 35, 0, 1, 0, 0, 75 Q 25 100, 50 150 Q 75 100, 100 75 A 35 35, 0, 1, 0, 50 15 Z');
+}
+
 .container {
     text-align: center;
     background: white;
